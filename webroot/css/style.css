@@ -1,0 +1,167 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #404040;
+    color: white;
+}
+table{
+    color: white;
+}
+.fixed-table-container tbody .selected td {
+    background-color: #404040;
+}
+header{
+    height:90px;
+    background-color: #353535; 
+
+}
+.hidden-sm-down {
+  padding-left: 7px;
+}
+
+.footer{
+    text-align:center;
+    color: white;
+    height: 60px;
+}
+.footer h4{
+    font-size: 15px;
+    color:wheat;
+}
+.pagination-info {color:white;}
+.page-item.active .page-link{
+    background-color: #353535;
+    border-color: #353535;
+}
+.page-link{
+    color: black;
+    border: 1px solid #353535;
+}
+.btn-secondary{
+    background-color: #353535;
+    border-color: #353535;
+}
+
+.form_title{
+    margin-top: 30px;
+    color:wheat;
+    font-size: 20px;
+    text-shadow: 1px 1px burlywood ;
+    font-style: italic;
+}
+
+.joueur .groupe{
+    color: white;
+}
+
+.table_title {
+    margin-top: 30px;
+    background-color: #353535;
+    text-align: center;
+    font-size: 20px;
+    color: rgb(173,124,92);
+    position: relative;
+    padding: .75rem 1.25rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ffeeba;
+    border-radius: 5px;
+}
+.table_title p{
+    margin: 0;
+}
+/*Menue*/
+#menu{
+        color: white;
+        padding-left: 7px;
+        font-size: 14px;
+    }
+#sub{
+        font-size: 10px;
+        padding-left: 15px;
+        color: white;
+}
+#sub:hover,#menu:hover {
+    color: rgb(173,124,92);
+    text-decoration: none;
+}
+
+table a{
+    display:inline-block;
+    color:wheat;
+    font-family:arial,sans-serif;
+    font-size:16px;
+    text-decoration:none;
+    background-color: rgba(0,0,0,0.0);
+}
+a:hover{
+    color: #a35f3e;
+}
+
+h1{
+   font-style: italic; 
+}
+
+#imageReduite {
+    max-width: 30px;
+}
+
+#imageReduite:hover {
+    /*max-width: 100%;*/
+      transform: scale(3);
+}
+
+.img_header{
+vertical-align: middle;
+border-style: none;
+max-height: 50%;
+border-radius: 5px;
+height: 100px;
+margin-left: 15px;
+}
+.img_titre{
+border-style: none;
+margin-top: 60px;
+}
+.footer>.img_titre{
+    padding-bottom: 30px;
+}
+#sidebar{
+    text-align: left;
+}
+.calander td{
+    padding: 5px;
+}
+
+@media (max-width: 1024px){
+    .img_header{
+        max-height: 75px;
+    }
+    .navbar{
+        justify-content:start;
+    }
+    #sidebar{
+        flex: 1 0 29%;
+    }
+    #menu{
+        width: 185px;
+    }
+    .hidden-sm-down{
+        justify-content: start;
+        justify-items: start;
+    }
+   
+
+}
+@media (min-width: 768px){
+    #sidebar{
+        flex: 0 0 20%;
+    }
+    #menu{
+        width: 150px;
+        
+    }
+  
+}
